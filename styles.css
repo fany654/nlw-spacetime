@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* esse comando serve para que o site tenha o tamanho das bordas respeitadas para o definido, para não influenciar de uma forma não planejada. (para que não se altere caso haja espaçamento entre as bordas, evitando aumentar o tamanho da de fora de forma que a gente não queira) */
+}
+body {
+  /* aqui dentro terá propriedades e seus valores que afetam o elemento (tag body) */
+  background-color: #121215;
+  color: #eaeaea;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  padding: 64px;
+}
+.memory {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  /*ferramenta flex-box é o elemento usado para posicionar os elementos na tela com mais flexibilidade*/
+  text-decoration: none;
+  margin-bottom: 64px;
+}
+.memory small {
+  /*O ponto inicial indica que memory não é uma tag ou elemento, e sim uma classe*/
+  color: #bebebf;
+  font-size: 12px;
+}
+.memory h1 {
+  font-size: 32px;
+  color: #eaeaea;
+}
+.memory img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover; /*isso faz com que a imagem não estique quando a largura do navegador é manipulado*/
+  border-radius: 10px;
+}
+.memory p {
+  font-size: 18px;
+  color: #bebebf;
+  line-height: 28px;
+}
