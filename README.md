@@ -5,7 +5,7 @@
 ## 🖥️ Projeto
 Esse é um projeto Web responsivo de uma Cápsula do Tempo para exibir memórias em uma linha do tempo.
 
-## 🚀 Tecologias
+## 🚀 Tecnologias
 Esse projeto foi desenvolvido durante o NLW - Spacetime da Rocketseat com as seguintes tecnologias:
 
 - HTML
